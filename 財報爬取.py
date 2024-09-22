@@ -4,10 +4,10 @@ import pandas as pd
 # 定義 AAPL 的股票代號
 ticker = 'AAPL'
 
-# 使用 yfinance 獲取 TSMC 股票資料
+# 使用 yfinance 獲取 AAPL 股票資料
 tsmc = yf.Ticker(ticker)
 
-# 獲取 TSMC 的季度財務報告
+# 獲取 AAPL 的季度財務報告
 financials = tsmc.quarterly_financials
 
 # 提取需要的財務數據項目
